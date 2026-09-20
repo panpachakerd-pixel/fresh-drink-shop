@@ -15,8 +15,6 @@ permissions:
 # 3. กำหนดภาระงาน (Job)
 jobs:
   build-and-deploy:
-    environment:
-      name: github-pages
     runs-on: ubuntu-latest # สั่งเปิด Cloud VM ระบบ Ubuntu
     steps:
       # ขั้นตอนที่ A: ดึงโค้ดล่าสุดจาก Repository มาลงเครื่อง VM
